@@ -1,0 +1,9 @@
+# node_modules/ 는 필수 — 로컬 테스트 리그의 whoisyourai-core 심링크가 커밋되지 않게 한다.
+node_modules/
+*.log
+.DS_Store
+
+# 복호 키·상태 파일은 이 레포에 두지 않는다 (별도 whoisyourai-keys 레포에서 배급).
+keys.json
+**/keys.json
+status.json
