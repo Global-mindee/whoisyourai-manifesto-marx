@@ -7,7 +7,9 @@ import { runInstall } from "whoisyourai-core/install";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
-const PKG = "whoisyourai-manifesto-marx";
+// MCP 등록에 기록될 설치 소스. npm 미배포 상태이므로 GitHub 스펙을 쓴다.
+// npm 공개 배포로 전환하면 "whoisyourai-manifesto-marx" 로 되돌린다.
+const PKG = process.env.WHOISYOURAI_PKG_SPEC || "github:Global-mindee/whoisyourai-manifesto-marx";
 const SERVER_NAME = "marx-manifesto";
 const AUTHOR = "카를 마르크스";
 const TITLE = "공산주의자 선언";
