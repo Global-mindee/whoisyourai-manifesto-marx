@@ -85,3 +85,32 @@ npx whoisyourai-manifesto-marx           # MCP 서버 실행 (보통 자동)
 - 함께 나온 책: 니체 『차라투스트라는 이렇게 말했다』 → [whoisyourai-zarathustra-nietzsche](https://github.com/Global-mindee/whoisyourai-zarathustra-nietzsche)
 
 문의: minjun8702@gmail.com
+
+---
+
+## 도서 독자를 위한 최신 안내
+
+『AI와 함께 읽는 철학서 : 공산주의자 선언』 부록에서 안내한 최신 안내 페이지가 이 절입니다. 책의 설명과 이 페이지가 다르면 이 페이지를 우선으로 따라 주세요.
+
+### 서비스 상태
+
+- 현재 상태: **정상 운영 중**입니다. 웹·모바일 접속과 컴퓨터 설치 방식 모두 이용할 수 있습니다.
+- 일시 중단이나 점검이 있을 때는 이 절에 공지합니다.
+
+### 웹·모바일 접속 주소에 대해
+
+- 접속 주소는 책을 구매하신 분을 위한 것이라 이 공개 페이지에는 게시하지 않습니다. **책 부록 2절에 인쇄된 주소**를 사용해 주세요.
+- 주소가 널리 유출되어 재발급되는 경우, 새 주소를 받는 방법을 이 절에 공지합니다. 재발급 시에는 기존 등록을 삭제하고 새 주소로 다시 등록해야 합니다.
+
+### 수동 등록이 필요할 때 (컴퓨터 설치 방식)
+
+설치 명령이 자동 등록에 실패하면 화면에 등록용 설정이 표시됩니다. 도구별 설정 위치는 다음과 같습니다.
+
+- **Claude Desktop**: 설정 → 개발자 → 설정 편집으로 열리는 `claude_desktop_config.json`에 화면의 JSON 내용을 병합한 뒤 앱을 완전히 종료했다가 다시 엽니다.
+- **Claude Code**: 터미널에서 `claude mcp add marx-manifesto -- npx -y whoisyourai-manifesto-marx` 를 실행합니다.
+- **Codex**: 터미널에서 `codex mcp add marx-manifesto -- npx -y whoisyourai-manifesto-marx` 를 실행합니다.
+- 그 밖의 MCP 지원 도구는 해당 도구의 MCP 서버 설정 화면에 화면에 표시된 명령(`npx -y whoisyourai-manifesto-marx`)을 등록합니다.
+
+### 문의
+
+- 이메일: hello@corp-mindee.com
