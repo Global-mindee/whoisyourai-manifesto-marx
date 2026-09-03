@@ -7,3 +7,6 @@ node_modules/
 keys.json
 **/keys.json
 status.json
+
+# Claude worktree 메타 (worktree 실체가 들어있어 커밋 금지)
+.claude/
